@@ -1,0 +1,1068 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+.clr{
+    clear: both;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+/* ==============================
+        header part start
+=================================== */
+header{
+    background: #2c2d32;
+    
+}
+header .logo{
+    padding: 15px 0;
+    float: left;
+    width: 15%;
+}
+header .menu{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    float: left;
+    width: 60%;
+    text-align: center;
+    
+    
+}
+header .menu a{
+    display: inline-block;
+    text-transform: uppercase;
+    
+     margin-right: 20px;
+    color: #fff;
+    transition: .4s;
+    padding: 35px 10px;
+    border-top: 1px solid transparent ;
+    
+}
+header .menu a:hover{
+   color: red;
+   border-top: 1px solid red;
+}
+header .sign{
+    padding: 26px 0;
+    float: left;
+    width: 25%;
+    text-align: center;
+    text-transform: capitalize;
+} 
+header .sign .border{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    border: 1px solid red;
+    border-radius: 100px;
+    display: inline-block;
+    padding: 5px 15px;
+    background: red;
+    color: #fff;
+    -webkit-box-shadow: 0px 4px 50px 1px rgba(255,0,0,0.45); 
+    box-shadow: 0px 4px 50px 1px rgba(255,0,0,0.45);
+}
+
+/* ==============================
+        header part end
+=================================== */
+/* ==============================
+        banner part start
+=================================== */
+#banner{
+    background: #2c2d32;
+    
+}
+
+#banner .text{
+    
+    float: left;
+    width: 35%;
+}
+#banner .text h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 80px;
+}
+#banner .text h3{
+    margin-top: -3px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+}
+#banner .text img{
+    display: block;
+    margin-top: 18px;
+}
+#banner .text .play i{
+    margin-right: 8px;
+    margin-top:17px;
+    float: left;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+   background: #fff;
+    color: #000;
+    
+}
+#banner .text .play span p{
+    margin-top: 21px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+#banner .text .icon-txt{
+    width: 35%;
+    float: left;
+    text-align: left;
+}
+#banner .text .icon-txt p{
+    margin-top: 85px;
+    text-transform: capitalize;
+    color: #fff;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+#banner .text .border-img{
+    width: 1%;
+    float: left;
+    margin-right: 35px;
+}
+#banner .text .border-img img{
+    display: inline-block;
+    margin-top: 61px;
+  
+   
+    
+}
+#banner .text .icon-1{
+    width: 14%;
+    float: left;
+    margin-right: 20px;
+}
+#banner .text .icon-1 i{
+    margin-bottom: 4px;
+   transition: .4s;
+   margin-top: 77px;
+    float: left;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    /* border: 1px solid #fff; */
+    color: #000;
+    background: #fff;
+    -webkit-box-shadow: -1px 2px 31px 1px rgba(255,255,255,0.43); 
+box-shadow: -1px 2px 31px 1px rgba(255,255,255,0.43);
+}
+#banner .text .icon-1 p{
+    
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    margin-left: -13px;
+
+}
+#banner .text .icon-1:hover i{
+    color: #fff;
+    background: red;
+    -webkit-box-shadow: -1px 2px 31px 1px rgba(255,0,0,0.43); 
+box-shadow: -1px 2px 31px 1px rgba(255,0,0,0.43);
+}
+#banner .text .icon-1:hover p{
+    color: red;
+}
+#banner .text .icon-2{
+    width: 14%;
+    float: left;
+}
+#banner .text .icon-2 i{
+    
+  transition: .4s;
+    margin-top: 77px;
+    margin-bottom: 4px;
+     float: left;
+     width: 50px;
+     height: 50px;
+     line-height: 50px;
+     text-align: center;
+     border-radius: 50%;
+     /* border: 1px solid #fff; */
+     color: #000;
+     background: #fff;
+     -webkit-box-shadow: -1px 2px 31px 1px rgba(255,255,255,0.43); 
+box-shadow: -1px 2px 31px 1px rgba(255,255,255,0.43);
+ }
+ #banner .text .icon-2 p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    margin-left: -13px;
+
+}
+#banner .text .icon-2:hover i{
+    color: #fff;
+    background: red;
+    -webkit-box-shadow: -1px 2px 31px 1px rgba(255,0,0,0.43); 
+box-shadow: -1px 2px 31px 1px rgba(255,0,0,0.43);
+}
+#banner .text .icon-2:hover p{
+    color: red;
+}
+#banner .img{
+   
+    float: left;
+    width: 65%;
+}
+/* ==============================
+        banner part end
+=================================== */
+/* ==============================
+        about part start
+=================================== */
+#about{
+    margin-top: 60px;
+}
+#about .img{
+    width: 60%;
+    float: left;
+}
+#about .text{
+    width: 40%;
+    float: left;
+
+}
+#about .text .title h2{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    color: red;
+    margin-top: 66px;
+
+}
+#about .text .txt-1 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #b1b1b1;
+    margin-top: 51px;
+    width: 450px;
+}
+#about .text .txt-2 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #b1b1b1;
+    margin-top: 28px;
+    width: 450px;
+
+}
+#about .text .play i{
+    margin-top: 38px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: red;
+    color: #fff;
+    text-align: center;
+    float: left;
+}
+#about .text .play p{
+    margin-left: 10px;
+    margin-top: 46px;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* ==============================
+        about part end
+=================================== */
+
+/* ==============================
+        div part start
+=================================== */
+#div{
+    margin-top: 60px;
+    background: #f1f1f1;
+    padding: 50px 0;
+}
+
+#div .item{
+    margin-right: 35px;
+    box-sizing: border-box;
+    width: 30%;
+    padding: 20px 10px;
+    background: #fff;
+    float: left;
+    border-top: 5px solid red;
+    text-align: center;
+}
+#div .item .img{
+    text-align: center;
+}
+#div .item .border-round{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    background: #fff;
+    -webkit-box-shadow: -1px 2px 31px 1px rgba(0,0,0,0.43); 
+box-shadow: -1px 2px 31px 1px rgba(0,0,0,0.43);
+}
+#div .item .border-round img{
+    text-align: center;
+    margin-top: 11px;
+}
+#div .item .title h3{
+    margin-top: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+#div .item p{
+    margin-top: 7px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+
+
+#div .item-1{
+    margin-right: 35px;
+    box-sizing: border-box;
+    width: 30%;
+    padding: 20px 10px;
+    background: #fff;
+    float: left;
+    border-top: 5px solid yellow;
+    text-align: center;
+}
+#div .item-1 .img{
+    text-align: center;
+}
+#div .item-1 .border-round{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    background: #fff;
+    -webkit-box-shadow: -1px 2px 31px 1px rgba(0,0,0,0.43); 
+box-shadow: -1px 2px 31px 1px rgba(0,0,0,0.43);
+}
+#div .item-1 .border-round img{
+    text-align: center;
+    margin-top: 11px;
+}
+#div .item-1 .title h3{
+    margin-top: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+#div .item-1 p{
+    margin-top: 7px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+
+#div .item-2{
+    box-sizing: border-box;
+    width: 30%;
+    padding: 20px 10px;
+    background: #fff;
+    float: left;
+    border-top: 5px solid #54caa5;
+    text-align: center;
+}
+#div .item-2 .img{
+    text-align: center;
+}
+#div .item-2 .border-round{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    background: #fff;
+    -webkit-box-shadow: -1px 2px 31px 1px rgba(0,0,0,0.43); 
+box-shadow: -1px 2px 31px 1px rgba(0,0,0,0.43);
+}
+#div .item-2 .border-round img{
+    text-align: center;
+    margin-top: 11px;
+}
+#div .item-2 .title h3{
+    margin-top: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+#div .item-2 p{
+    margin-top: 7px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+/* ==============================
+        div part end
+=================================== */
+
+/* ==============================
+        works part start
+=================================== */
+#works{
+    margin-top: 60px;
+}
+#works .text{
+    width: 40%;
+    float: left;
+    
+
+}
+#works .text .title h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    color: red;
+}
+#works .text .main .item-1{
+    float: left;
+    width: 20%;
+    margin-top: 46px;
+}
+#works .text .main .item-1 .border-round{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    background: #fff;
+    -webkit-box-shadow: -1px 2px 31px 1px rgba(0,0,0,0.43); 
+box-shadow: -1px 2px 31px 1px rgba(0,0,0,0.43);
+    
+   
+}
+#works .text .main .item-1 .border-round img{
+   margin: 15px 15px;
+}
+#works .text .item-2{
+    float: left;
+    width: 80%;
+    margin-top: 46px;
+}
+#works .text .main .item-2 .title h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+
+
+}
+#works .text .main .item-2 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 7px;
+}
+#works .img{
+    
+    width: 60%;
+    float: left;
+}
+/* ==============================
+        works part end
+=================================== */
+
+/* ==============================
+        apps part start
+=================================== */
+#apps{
+    margin-top: 60px;
+}
+
+#apps .title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#apps .title h2{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    color: red;
+}
+#apps .item{
+    width: 15%;
+    background: #f1f1f1;
+    float: left;
+    margin-right: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+#apps .item .img {
+    position: relative;
+}
+#apps .item .img img{
+    display: block;
+    
+    width: 100%;  
+    transition: .4s;
+   
+}
+#apps .item .img .overlay{
+    position: absolute;
+    width: 0%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.671);
+    opacity: 0;
+    transition: .4s;
+}
+#apps .item:hover .img .overlay {
+    width: 100%;
+    opacity: 1;
+}
+
+#apps .item h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+#apps .item p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    margin-top: 4px;
+}
+#apps .item i{
+    color: #666666;
+    margin-top: 8px;
+}
+#apps .item span{
+    color: #689f38;
+    margin-left: 18px;
+}
+
+/*==============================
+        apps part end
+=================================== */
+
+/*==============================
+         screenshot part start
+=================================== */
+#ss-part{
+    margin-top: 60px;
+}
+#ss-part .title{
+    text-align: center;
+}
+#ss-part .title h2{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    color: red;
+}
+#ss-part .img{
+    text-align: center;
+    margin-top: 60px;
+}
+/*==============================
+         screenshot part end
+=================================== */
+/*==============================
+         TEAM part start
+=================================== */
+#team{
+    margin-top: 60px;
+}
+#team .title{
+    text-align: center;
+}
+#team .title h2{
+    margin-bottom: 60px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    color: red;
+}
+#team .item{
+    margin-right: 30px;
+    width: 20%;
+    float: left; 
+    margin-bottom: 60px;
+}
+#team .item img{
+  width: 100%;
+  display: block;
+}
+#team .item-2{
+    margin-right: 30px;
+    width: 50%;
+    float: left;
+    margin-bottom: 60px;
+}
+#team .item-2 .img{
+    width: 40%;
+    
+    float: left;
+    background: red;
+    
+}
+#team .item-2 .img img{
+    display: block;
+    width: 100%;
+    object-fit: fill;
+    object-position: center;
+    height: 263px;
+}
+
+#team .item-2 .text{
+    box-sizing: border-box;
+    padding: 50px 25px;
+    width: 60%;
+    float: left;
+    background: #f1f1f1;
+}
+#team .item-2 .text h3{
+    color: red;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+#team .item-2 .text h4{
+    margin-top: 11px;
+    margin-bottom: 6px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #444444;
+}
+#team .item-2 .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #7d7d7d;
+}
+#team .item-2 .text i{
+    margin-top:38px ;
+    box-sizing: border-box;
+    color: #444444;
+    margin-right: 30px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    background: transparent;
+    transition: .4s;
+    
+
+}
+#team .item-2 .text i:hover{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: red;
+    -webkit-box-shadow: 0px 4px 27px 4px rgba(255,0,0,0.42); 
+box-shadow: 0px 4px 27px 4px rgba(255,0,0,0.42);
+}
+#team .item-3{
+    width: 20%;
+    float: left;
+    margin-bottom: 60px;
+}
+#team .item-3 img{
+    width: 100%;
+    display: block;
+  }
+/*==============================
+         TEAM part end
+=================================== */
+/*==============================
+         game part start
+=================================== */
+#game{
+    margin-top:60px ;
+    background: #f1f1f1;
+    
+}
+#game .main{
+    margin-right: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 45%;
+    float: left;
+    background: red;
+
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+
+    
+}
+#game .main .text{
+    height: 50%;
+    width: 100%;
+    background: #f1f1f1;
+}
+#game .main .text p{
+    color: #444444;
+    padding-top: 25px;
+    text-align: center;
+    padding-bottom: 66px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+#game .main .round{
+    position: relative;
+   height: 50%;
+    width: 100%;
+    background:#fc3b64;
+}
+#game .main .round .border-round{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+}
+#game .main .round .border-round img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+}
+#game .main .round h2{
+    color: #fff;
+    text-align: center;
+    padding-top: 55px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+#game .main .round h4{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+/*==============================
+         game part end
+=================================== */
+
+
+/*==============================
+         pricing part start
+=================================== */
+#pricing{
+    margin-top: 60px;
+}
+#pricing .title{
+    text-align: center;
+}
+#pricing .title h2{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    color: red;
+}
+#pricing .img{
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+
+/*==============================
+         pricing part end
+=================================== */
+
+/*==============================
+         contact part start
+=================================== */
+#contact{
+    margin-top: 60px;
+}
+#contact .title{
+    text-align: center;
+    margin-bottom: 45px;
+}
+#contact .title h2{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    color: red;
+}
+#contact form .input-1 input{
+    padding: 20px 0;
+    margin-right: 60px;
+    width: 45%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #dddddd;
+    
+    float: left;
+}
+#contact form .input-1 input::placeholder{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #999999;
+}
+
+#contact form .msg textarea{
+   padding-top: 50px;
+  padding-bottom: 100px;
+    width: 95%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #dddddd;
+    resize: vertical;
+}
+#contact form .msg textarea::placeholder{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #999999;
+}
+#contact .bln{
+    text-align: center;
+    margin-top: 50px;
+
+}
+#contact form .bln button{
+    padding: 10px 30px;
+    border-radius: 25px;
+    background: #fc3b64;
+    color: #fff;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 1px 19px 45px -7px rgba(255,0,0,0.51); 
+    box-shadow: 0px 10px 13px -7px #000000, 1px 19px 45px -7px rgba(255,0,0,0.51);
+
+}
+/*==============================
+         contact part end
+=================================== */
+
+/*==============================
+         footer part start
+=================================== */
+footer{
+        margin-top: 200px;
+        background: #2c2d32;
+        position: relative;
+}
+footer .main{
+    background: #fc3b64;
+    width: 800px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+footer .main .one{
+    box-sizing: border-box;
+ width: 50%;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ padding-left: 51px;
+ background:transparent;
+ float: left;
+}
+footer .main .one img{
+    float: left;
+    margin-top: 8px;
+}
+footer .main .one h2{
+    letter-spacing: 5px;
+    color: #fff;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+footer .main .one p{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+footer .main .two{
+    box-sizing: border-box;
+    padding-top: 29px;
+    padding-bottom: 23px;
+width: 50%;
+background:transparent;
+float: left;
+position: relative;
+}
+footer .main .two input{
+    
+    border:1px solid #fff;
+    background: transparent;
+    margin-left: 11;
+    outline: none;
+    border-radius: 25px;
+    width: 300px;
+    padding: 15px 10px;
+}
+footer .main .two input::placeholder{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+footer .main .two a{
+    color: #fc3b64;
+    background: #fff;
+    position: absolute;
+    padding: 10px 20px;
+    top: 34px;
+    left: 231px;
+    border-radius: 24px;
+    
+}
+footer .img{
+    text-align: center;
+    
+}
+footer .img img{
+    margin-top: 100px;
+}
+footer .icon{
+    text-align: center;
+    margin-top: 20px;
+}
+footer ul li{
+    padding-bottom: 40px;
+    /* width: 40px;
+    height: 40px;
+    line-height:40px;
+    border-radius: 50%;
+    text-align: center;
+    background: cornsilk; */
+   display: inline-block;
+   margin-left: 25px;
+}
+footer ul li .icon i{
+    transition: .4s;
+     width: 40px;
+    height: 40px;
+    line-height:40px;
+    border-radius: 50%;
+    text-align: center;
+    background: #fff;
+    -webkit-box-shadow: 1px 1px 34px 6px rgba(255,255,255,0.37); 
+    box-shadow: 1px 1px 34px 6px rgba(255,255,255,0.37);
+}
+footer ul li .text p{
+    transition: .4s;
+    margin-top: 5px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+footer ul li:hover .icon i{
+    background: #fc3b64;
+    color: #fff;
+}
+footer ul li:hover .text p{
+    color: #fc3b64;
+}
+/*==============================
+         footer part end
+=================================== */
+/* =======================================
+              footerbottom part start
+===============================================*/
+#copyright{
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #666666;
+    background: #2c2d32;
+    box-sizing: border-box;
+    color: #f1f1f1;
+}
+#copyright p{
+    padding: 10px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+#copyright span{
+  color: #fc3b64;
+}
+
+
+
+/* =======================================
+              footerbottom part end
+===============================================*/
